@@ -17,21 +17,20 @@
         "outlier": true,
         "dismissed": false,
         "completed": false,
-            "details": [
-              {
-                "title": "Details title",
-                "description": "Details description"
-              }
-            ],
-            "_link": {
-              "dismiss": "https://assistant.getsilverfin.com/firm/{firm_id}/company/{company_id}/period/{period_id}/checks/{check_id}/dismiss"
-            }
+        "details": [
+          {
+            "title": "Details title",
+            "description": "Details description"
+          }
         ],
         "_link": {
-          "overview": "https://assistant.getsilverfin.com/outliers/"
+          "dismiss": "https://assistant.getsilverfin.com/firm/{firm_id}/company/{company_id}/period/{period_id}/checks/{check_id}/dismiss"
         }
       }
     ],
+    "_link": {
+      "overview": "https://assistant.getsilverfin.com/outliers/"
+    }
     "status": {
       "status": 200
     },
